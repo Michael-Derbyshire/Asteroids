@@ -44,6 +44,6 @@ def game_end(surface, text, font, color = Color("tomato")):
 
 # Updates a tile to keep track of scores - can be used to have a scoreboard in the future
 def update_file(x):
-    with open(r"E:\.Portfolio\Programs\Asteroids\Asteroids-Game\scores.txt", 'a') as file:
+    with open(r"Asteroids/Asteroids-Game/scores.txt", 'a') as file:
         line = str(x)
         file.write(line + "\n")
